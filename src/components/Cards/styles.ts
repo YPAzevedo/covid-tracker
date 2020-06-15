@@ -9,7 +9,7 @@ const getBorderColor = (type: string) => {
     case "deaths":
       return "#FF6523";
     default:
-      return "##FFD326";
+      return "#FFD326";
   }
 };
 

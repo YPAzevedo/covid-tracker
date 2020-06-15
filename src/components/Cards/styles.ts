@@ -15,11 +15,11 @@ const getBorderColor = (type: string) => {
 
 const fadeIn = keyframes`
   0% {
-    transform: translateX(-30px);
+    transform: translateY(-30px);
     opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
   }
 `;

@@ -27,7 +27,7 @@ const Cards: React.FC = () => {
       <Card type="deaths">
         <h3>DEATHS:</h3>
         {!!deaths ? <strong>{deaths.value}</strong> : <BarLoader />}
-        <small>Number of detahs caused by COVID-19</small>
+        <small>Number of deaths caused by COVID-19</small>
         <small>{moment(lastUpdate).format("MMMM Do YYYY, h:mm a")}</small>
       </Card>
     </Container>
